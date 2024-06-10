@@ -97,6 +97,7 @@ export default {
   db_url: process.env.DB_URL,
 };
 ```
+
 ### Setting up eslint
 ```javascript
 npm i --save-dev eslint @eslint/js typescript typescript-eslint
