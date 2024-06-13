@@ -1,4 +1,4 @@
-## How to set up eslint and prettier
+## How to set up eslint and prettier in a express and typescript project
 
 The purpose of this blog is to show how to setup eslint in a typescript project. Eslint will help you automatically detect and fix various types of errors in a project. So you development experience will be smooth. 
 
