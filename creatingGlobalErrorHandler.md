@@ -2,7 +2,16 @@
 
 ### Introduction
 
-- In this blog i will explain how to set up global error handler in an express app. 
+- This is the third blog of my series where i am writing how to write code for industry grade project so that you can manage and scale the project. In this blog we will learn how to set up a global error handler in your Express application. 
+
+- The first three blogs of the series was about "How to set up eslint and prettier in a express and typescript project", "Folder structure in an industry standard project" and "How to create API in an industry standard app". You can check them in the following link.
+
+https://dev.to/md_enayeturrahman_2560e3/how-to-set-up-eslint-and-prettier-1nk6
+
+https://dev.to/md_enayeturrahman_2560e3/folder-structure-in-an-industry-standard-project-271b
+
+https://dev.to/md_enayeturrahman_2560e3/how-to-create-api-in-an-industry-standard-app-44ck
+
 
 - In Express applications, when an error occurs, it can be passed to the global error handler using the next function. If a parameter is provided to the next function, Express identifies it as an error and forwards it to the global error handler.
 
